@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'poppins700';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins600';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins500';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'inter700';
+    src: url('../fonts/Inter_28pt-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'inter500';
+    src: url('../fonts/Inter_24pt-Medium.ttf');
+}
+
+
+
+
+
+@media (max-width: 1130px) {
+    .card_group {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .products_market_box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__center__card_group {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .about_carusel_img {
+        display: none;
+    }
+
+    .about_bottom_group {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 35px;
+    }
+}
+
+
+@media (max-width: 945px) {
+    .nav_content {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        padding: 50px 0px;
+        gap: 50px;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .card_group {
+        grid-template-columns: 1fr;
+    }
+
+    .products_market_box {
+        grid-template-columns: 1fr;
+    }
+
+    .card_rek {
+        padding: 20px;
+        gap: 16px;
+    }
+
+    .about_bottom_group{
+        padding: 20px;
+    }
+
+    .card_top_text {
+        font-size: 28px;
+    }
+}
+
+
+
+@media (max-width:550px) {
+    .main_content_top_text {
+        font-size: 44px;
+        line-height: 60.32px;
+    }
+
+    .main_content_center_text {
+        font-size: 14px;
+        line-height: 17.08px;
+    }
+
+    .search_btn {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width:450px) {
+    .main_content_top_text {
+        font-size: 34px;
+        line-height: 50.32px;
+    }
+
+    .marketting__cards__img__box {
+        width: 100%;
+    }
+    .about__card{
+        padding: 15px;
+        gap: 15px;
+        flex-direction: column;
+        height: auto;
+    }
+    .Subscribe_btn{
+        font-size: 14px;
+    }
+}
